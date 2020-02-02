@@ -54,7 +54,31 @@ public class FoodTruck {
 	}
 
 	public String toString() {
-		return "[Truck ID: " + individualTruckId + ", name: " + truckName + ", food: " + truckFood + ", rating: "
-				+ truckRating + "]";
+		StringBuilder builder = new StringBuilder();
+		builder.append("Name: ");
+		builder.append(truckName);
+		builder.append(" Food: ");
+		builder.append(truckFood);
+		builder.append(" Rating: ");
+		builder.append(truckRating);
+		builder.append(" ID: FDTRK00");
+		builder.append(truckRating);
+		return builder.toString();
+		
+		
+		
 	}
 }
+
+
+//return "[Truck ID: " + individualTruckId + ", name: " + truckName + ", food: " + truckFood + ", rating: "
+//				+ truckRating + "]";
+
+//git add . 
+//git commit -m " note updates"
+//git push
+
+//vi
+//i - insert
+//-end insert
+//:wq - write/quit
