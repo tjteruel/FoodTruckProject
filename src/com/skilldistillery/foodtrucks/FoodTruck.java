@@ -62,17 +62,11 @@ public class FoodTruck {
 		builder.append(" Rating: ");
 		builder.append(truckRating);
 		builder.append(" ID: FDTRK00");
-		builder.append(truckRating);
-		return builder.toString();
-		
-		
-		
+		builder.append(individualTruckId);
+		return builder.toString();		
 	}
 }
 
-
-//return "[Truck ID: " + individualTruckId + ", name: " + truckName + ", food: " + truckFood + ", rating: "
-//				+ truckRating + "]";
 
 //git add . 
 //git commit -m " note updates"

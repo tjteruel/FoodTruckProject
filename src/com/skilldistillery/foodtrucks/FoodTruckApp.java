@@ -10,13 +10,12 @@ public class FoodTruckApp {
 
 	// M E T H O D S
 	public static void main(String[] args) {
-
 		FoodTruckApp FTA = new FoodTruckApp();
 		
 		FTA.createTrucks();
 		FTA.runUserMenu();
 
-	}
+	}// END MAIN METHOD
 
 	// INTRODUCTION & CREATE TRUCKS
 	public FoodTruck[] createTrucks() {
@@ -124,7 +123,7 @@ public class FoodTruckApp {
 				System.out.println("The Average Food Truck Rating Is: " + averageTruckRating(foodTrucks));
 				
 			}
-			else if (userChoice == 3) {
+			else if (userChoice == 3) {;
 				System.out.println("The Highest Rated Truck Is: " + highestRated());
 				
 			}
@@ -143,12 +142,3 @@ public class FoodTruckApp {
 
 
 
-
-//			FoodTruck truckInfo = new FoodTruck();
-//				truckInfo.truckName = truckName;
-//				truckInfo.truckFood = truckFood;
-//				truckInfo.truckRating = truckRating;
-//				
-//		
-//			}
-//		}
