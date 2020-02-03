@@ -66,13 +66,3 @@ public class FoodTruck {
 		return builder.toString();		
 	}
 }
-
-
-//git add . 
-//git commit -m " note updates"
-//git push
-
-//vi
-//i - insert
-//-end insert
-//:wq - write/quit
